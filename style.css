@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(./fonts/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: ThePUNCHER;
+  src: url(./fonts/ThePUNCHER\ Regular.otf);
+}
+
+* {
+  font-family: "Montserrat-Bold";
+}
+
+body {
+  color: #fffae7;
+  background-color: #090909;
+}
+
+.type-write-container {
+  min-height: 100vh;
+  padding: 6rem 8rem 0px 8rem;
+}
+
+.typewrite-upper-text {
+  text-align: left;
+  word-wrap: break-word;
+  font-feature-settings: "liga";
+  text-rendering: auto;
+  visibility: visible;
+  color: inherit;
+  line-height: 24px;
+  font-size: 20px;
+  font-family: "__Trash_5";
+  font-weight: 300;
+  margin: 0px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+  transform-origin: left top;
+  background-repeat: no-repeat;
+  max-height: 1000000px;
+}
+
+.typewrite-input {
+  overflow: auto;
+  background: transparent;
+  border: none;
+  -webkit-appearance: none;
+  outline: none;
+  letter-spacing: -7px;
+  font-family: ThePUNCHER;
+  font-size: 160px;
+  font-weight: 300;
+  min-height: 849px;
+  width: 100%;
+  color: inherit;
+  margin-top: 2.4rem;
+  letter-spacing: 2px;
+  overflow: hidden;
+}
+
+.typewrite-input::placeholder {
+  color: white;
+  opacity: 1;
+  font-family: "Montserrat-Bold";
+}
