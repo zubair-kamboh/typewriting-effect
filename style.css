@@ -41,7 +41,7 @@ body {
   font-weight: 300;
   margin: 0px;
   padding-bottom: 5px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #fffae7;
   transform-origin: left top;
   background-repeat: no-repeat;
   max-height: 1000000px;
@@ -66,7 +66,7 @@ body {
 }
 
 .typewrite-input::placeholder {
-  color: white;
+  color: #fffae7;
   opacity: 1;
   font-family: "Montserrat-Bold";
 }
