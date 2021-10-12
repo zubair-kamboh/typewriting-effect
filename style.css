@@ -34,7 +34,7 @@ body {
   font-feature-settings: "liga";
   text-rendering: auto;
   visibility: visible;
-  color: inherit;
+  color: #fffae7;
   line-height: 24px;
   font-size: 20px;
   font-family: "__Trash_5";
@@ -59,7 +59,7 @@ body {
   font-weight: 300;
   min-height: 849px;
   width: 100%;
-  color: inherit;
+  color: #fffae7;
   margin-top: 2.4rem;
   letter-spacing: 2px;
   overflow: hidden;
@@ -69,4 +69,27 @@ body {
   color: white;
   opacity: 1;
   font-family: "Montserrat-Bold";
+}
+
+@media screen and (max-width: 1000px) {
+  .type-write-container {
+    padding: 5rem 2rem 0px 2rem;
+  }
+  .typewrite-upper-text p {
+    font-size: 1rem;
+  }
+
+  .typewrite-input {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .typewrite-upper-text p {
+    font-size: 0.9rem;
+  }
+
+  .typewrite-input {
+    font-size: 3rem;
+  }
 }
